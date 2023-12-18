@@ -1,0 +1,22 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+}
+
+.tableauPlaceholder {
+    grid-column: 1;
+    border: 1px seagreen;
+    height: 500px;
+    width: 300px;
+
+}
+
+.rightside {
+    grid-column: 2;
+    border: 1px seagreen;
+    height: 500px;
+    width: 300px;
+}
